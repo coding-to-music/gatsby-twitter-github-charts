@@ -1,5 +1,5 @@
 {
-  "name": "lekoarts-stats",
+  "name": "gatsby-twitter-github-charts",
   "version": "1.0.0",
   "private": true,
   "author": "LekoArts <hello@lekoarts.de> (@lekoarts_de)",
@@ -9,6 +9,7 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "clean": "gatsby clean",
+    "deploy": "git add . && git commit -m Build && git push",
     "format": "prettier --write '**/**/*.{js,jsx,json,md,graphql,ts,tsx}'",
     "test": "jest",
     "test:watch": "jest --watch"
