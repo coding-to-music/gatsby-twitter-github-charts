@@ -5,10 +5,14 @@
   "author": "LekoArts <hello@lekoarts.de> (@lekoarts_de)",
   "main": "index.js",
   "license": "MIT",
+  "cacheDirectories": [
+    "node_modules"
+  ],
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
     "clean": "gatsby clean",
+    "vercel": "npm run deploy && vercel --prod",
     "deploy": "git add . && git commit -m Build && git push",
     "format": "prettier --write '**/**/*.{js,jsx,json,md,graphql,ts,tsx}'",
     "test": "jest",
